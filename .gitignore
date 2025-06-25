@@ -1,0 +1,15 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+
+# VS Code settings (if any)
+.vscode/
+
+# Ignore model and logs (optional, keep if large)
+fine_tuned_model/
+logs/
