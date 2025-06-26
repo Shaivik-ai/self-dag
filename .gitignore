@@ -10,6 +10,10 @@ __pycache__/
 # VS Code settings (if any)
 .vscode/
 
-# Ignore model and logs (optional, keep if large)
+# Ignore these folders
 fine_tuned_model/
 logs/
+
+# But still track these files inside them
+!fine_tuned_model/.gitkeep
+!logs/.gitkeep
